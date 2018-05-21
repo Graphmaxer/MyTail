@@ -123,6 +123,33 @@ tail/fast:
 	$(MAKE) -f CMakeFiles/tail.dir/build.make CMakeFiles/tail.dir/build
 .PHONY : tail/fast
 
+src/args.o: src/args.c.o
+
+.PHONY : src/args.o
+
+# target to build an object file
+src/args.c.o:
+	$(MAKE) -f CMakeFiles/tail.dir/build.make CMakeFiles/tail.dir/src/args.c.o
+.PHONY : src/args.c.o
+
+src/args.i: src/args.c.i
+
+.PHONY : src/args.i
+
+# target to preprocess a source file
+src/args.c.i:
+	$(MAKE) -f CMakeFiles/tail.dir/build.make CMakeFiles/tail.dir/src/args.c.i
+.PHONY : src/args.c.i
+
+src/args.s: src/args.c.s
+
+.PHONY : src/args.s
+
+# target to generate assembly for a file
+src/args.c.s:
+	$(MAKE) -f CMakeFiles/tail.dir/build.make CMakeFiles/tail.dir/src/args.c.s
+.PHONY : src/args.c.s
+
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -150,6 +177,87 @@ src/main.c.s:
 	$(MAKE) -f CMakeFiles/tail.dir/build.make CMakeFiles/tail.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/parsing.o: src/parsing.c.o
+
+.PHONY : src/parsing.o
+
+# target to build an object file
+src/parsing.c.o:
+	$(MAKE) -f CMakeFiles/tail.dir/build.make CMakeFiles/tail.dir/src/parsing.c.o
+.PHONY : src/parsing.c.o
+
+src/parsing.i: src/parsing.c.i
+
+.PHONY : src/parsing.i
+
+# target to preprocess a source file
+src/parsing.c.i:
+	$(MAKE) -f CMakeFiles/tail.dir/build.make CMakeFiles/tail.dir/src/parsing.c.i
+.PHONY : src/parsing.c.i
+
+src/parsing.s: src/parsing.c.s
+
+.PHONY : src/parsing.s
+
+# target to generate assembly for a file
+src/parsing.c.s:
+	$(MAKE) -f CMakeFiles/tail.dir/build.make CMakeFiles/tail.dir/src/parsing.c.s
+.PHONY : src/parsing.c.s
+
+src/tail.o: src/tail.c.o
+
+.PHONY : src/tail.o
+
+# target to build an object file
+src/tail.c.o:
+	$(MAKE) -f CMakeFiles/tail.dir/build.make CMakeFiles/tail.dir/src/tail.c.o
+.PHONY : src/tail.c.o
+
+src/tail.i: src/tail.c.i
+
+.PHONY : src/tail.i
+
+# target to preprocess a source file
+src/tail.c.i:
+	$(MAKE) -f CMakeFiles/tail.dir/build.make CMakeFiles/tail.dir/src/tail.c.i
+.PHONY : src/tail.c.i
+
+src/tail.s: src/tail.c.s
+
+.PHONY : src/tail.s
+
+# target to generate assembly for a file
+src/tail.c.s:
+	$(MAKE) -f CMakeFiles/tail.dir/build.make CMakeFiles/tail.dir/src/tail.c.s
+.PHONY : src/tail.c.s
+
+src/tail_file.o: src/tail_file.c.o
+
+.PHONY : src/tail_file.o
+
+# target to build an object file
+src/tail_file.c.o:
+	$(MAKE) -f CMakeFiles/tail.dir/build.make CMakeFiles/tail.dir/src/tail_file.c.o
+.PHONY : src/tail_file.c.o
+
+src/tail_file.i: src/tail_file.c.i
+
+.PHONY : src/tail_file.i
+
+# target to preprocess a source file
+src/tail_file.c.i:
+	$(MAKE) -f CMakeFiles/tail.dir/build.make CMakeFiles/tail.dir/src/tail_file.c.i
+.PHONY : src/tail_file.c.i
+
+src/tail_file.s: src/tail_file.c.s
+
+.PHONY : src/tail_file.s
+
+# target to generate assembly for a file
+src/tail_file.c.s:
+	$(MAKE) -f CMakeFiles/tail.dir/build.make CMakeFiles/tail.dir/src/tail_file.c.s
+.PHONY : src/tail_file.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +267,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... tail"
+	@echo "... src/args.o"
+	@echo "... src/args.i"
+	@echo "... src/args.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/parsing.o"
+	@echo "... src/parsing.i"
+	@echo "... src/parsing.s"
+	@echo "... src/tail.o"
+	@echo "... src/tail.i"
+	@echo "... src/tail.s"
+	@echo "... src/tail_file.o"
+	@echo "... src/tail_file.i"
+	@echo "... src/tail_file.s"
 .PHONY : help
 
 
