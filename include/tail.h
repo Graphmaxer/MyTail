@@ -33,7 +33,7 @@ struct tail_s {
 };
 typedef struct tail_s tail_t;
 
-tail_t *create_tail();
+tail_t *create_tail(void);
 bool run_tail(tail_t *tail, int ac, char **av);
 bool tail_file(tail_t *tail, char *file);
 void delete_tail(tail_t *);

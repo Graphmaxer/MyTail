@@ -12,7 +12,7 @@
 #include <unistd.h>
 #include "tail.h"
 
-tail_t *create_tail()
+tail_t *create_tail(void)
 {
 	tail_t *tail = calloc(1, sizeof(tail_t));
 
