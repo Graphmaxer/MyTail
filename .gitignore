@@ -2,7 +2,7 @@
 *.o
 .idea
 *.cmake
-*.txt
+*Cache*
 CMakeFiles
 *.cbp
 *debug*
