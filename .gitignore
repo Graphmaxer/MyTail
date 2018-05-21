@@ -1,0 +1,9 @@
+*~
+*.o
+.idea
+*.cmake
+*.txt
+CMakeFiles
+*.cbp
+*debug*
+tail
